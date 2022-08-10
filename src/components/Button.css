@@ -41,3 +41,10 @@
   color: #242424;
   transition: 250ms;
 }
+
+@media screen and (max-width: 768px) {
+  .btn--large {
+    padding: 8px 15px;
+    font-size: 9px;
+  }
+}

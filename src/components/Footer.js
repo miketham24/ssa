@@ -2,54 +2,30 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import emailjs from 'emailjs-com';
 
 function Footer() {
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_uzpwszc', 'ssa_template' , e.target, 'n8o_5KUUNA5PYKjQW')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-        Have a question? Send us a message!</p>
-        <p className='footer-subscription-text'>
-        Name:</p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
-        </div>
-      </div>
-      <section class='social-media'>
+    <div className='footer-container2' id="footer">
+      <div className='left-contact2'>
+        <div className='whole-left'>
+        <h1 className='left-h1'>UBC SSA</h1>
+        <h2 className='left-h2'>singapore.ubc@gmail.com</h2>
+        <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-            <img src="images/ssa23logo.png" alt='SSA logo' class='footer-logo' />
-            </Link>
-          </div>
-          <small class='website-rights'>SSA Last Updated Aug 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -60,7 +36,7 @@ function Footer() {
                 window.open('https://www.facebook.com/theubcssa');
                 }}
             >
-              <i class='fab fa-facebook-f' />
+              <i class='fab fa-facebook-square' />
             </Link>
             <Link
               class='social-icon-link instagram'
@@ -84,9 +60,53 @@ function Footer() {
             >
               <i class='fab fa-linkedin' />
             </Link>
+            <Link
+              class='social-icon-link discord'
+              target='_blank'
+              aria-label='Discord'
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://discord.com/invite/dyPydJK');
+                }}
+            >
+              <i class='fab fa-discord' />
+            </Link>
           </div>
         </div>
       </section>
+        </div>
+      </div>
+      <div className='footer-subscription2'>
+        <p className='footer-subscription-heading'>
+        Have a question? Send us a message!  <br/>
+        or send us an email at singapore.ubc@gmail.com</p>
+        <div className='input-areas'>
+          <form onSubmit={sendEmail}>
+          <input
+              className='footer-input'
+              name="name"
+              type='text'
+              placeholder='Your Name'
+              required
+            />
+            <input
+              className='footer-input'
+              name="email"
+              type='email'
+              placeholder='Your Email'
+              required
+            />
+            <input
+              className='footer-input'
+              name="subject"
+              type='text'
+              placeholder='Your Subject'
+            />
+            <textarea className='footer-input' name="Message" rows="7" placeholder=' Your Message' required/>
+            <Button buttonStyle='btn--outline' type="submit" value="Send">Send Message &nbsp;<i class="fa fa-arrow-right"></i></Button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,31 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import React, { useState} from 'react';
+import {Link} from 'react-scroll';
 import './Navbar.css';
-import Dropdown from './Dropdown';
+import {animateScroll as scroll} from 'react-scroll';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [dropdown, setDropdown] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
 
   const changeNavbar = () => {
     if (window.scrollY >= 80) {
@@ -37,29 +21,29 @@ function Navbar() {
 
   window.addEventListener('scroll', changeNavbar);
 
-  const onMouseEnter = () => {
-    if(window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
-  };
+  // const onMouseEnter = () => {
+  //   if(window.innerWidth < 960) {
+  //     setDropdown(false);
+  //   } else {
+  //     setDropdown(true);
+  //   }
+  // };
 
-  const onMouseLeave = () => {
-    if(window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
-  };
-
+  // const onMouseLeave = () => {
+  //   if(window.innerWidth < 960) {
+  //     setDropdown(false);
+  //   } else {
+  //     setDropdown(false);
+  //   }
+  // };
 
   return (
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <div className='navbar-container'>
-          <div className='navbar-logo'>
-          <img src="images/ssa23logo.png" alt='SSA logo' class='logo-image' />
+          <div className='navbar-logo' onClick = {() =>
+          scroll.scrollToTop()}>
+          <img src="images/qwerty.jpg" alt='SSA logo' class='logo-image' />
              <h1 className='nav-h1'>UBC SSA</h1>
              </div>
           <div className='menu-icon' onClick={handleClick}>
@@ -67,13 +51,13 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to="home" smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to="about" offset={-80} smooth={true} duration={1000}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -81,21 +65,31 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}>
+            // onMouseEnter={onMouseEnter}
+            // onMouseLeave={onMouseLeave}
+            >
               <Link
-                to='/products'
+                to="events" offset={-80} smooth={true} duration={1000}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Events 
-                <i className='fas fa-caret-down' />
+                {/* {' '} <i className='fas fa-caret-down' /> */}
               </Link>
-              {dropdown && <Dropdown />}
+              {/* {dropdown && <Dropdown />} */}
             </li>
             <li className='nav-item'>
               <Link
-                to='/sign-up'
+                to="team" offset={-80} smooth={true} duration={1000}
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Team
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to="footer" offset={-80} smooth={true} duration={1000}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

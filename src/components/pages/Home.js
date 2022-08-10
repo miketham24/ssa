@@ -2,9 +2,11 @@ import React from 'react';
 import '../../App.css';
 import Cards from '../Cards';
 import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+// import Team from '../Team';
 import About from '../About';
-import Team from '../Team';
+import Whyus from '../Whyus';
+import Partner from '../Partner';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -12,7 +14,9 @@ function Home() {
       <HeroSection />
       <About />
       <Cards />
-      <Team />
+      <Whyus />
+      {/* <Team /> */}
+      <Partner />
       <Footer />
     </>
   );

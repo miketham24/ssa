@@ -1,0 +1,75 @@
+.whyus {
+    padding: 2rem;
+    background: blanchedalmond;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyus-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 32px;
+    padding: 0 50px;
+}
+
+.whyus-card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 340px;
+    padding: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.whyus-card:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.icon-living {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.whyus-h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.whyus-p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.whyus-h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+div[data-aos-duration='3000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='3000'] {
+transition-duration: 3000ms;
+}
+  
+    
+  @media only screen and (max-width: 768px) {
+    .whyus {
+      height:150vh;
+    }
+    .whyus-wrapper{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+  }
+

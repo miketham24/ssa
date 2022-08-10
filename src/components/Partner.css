@@ -1,0 +1,19 @@
+.partner-container {
+    background-color: white;
+    height: 40vh;
+}
+
+.partner-h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.companies {
+    padding-top: 3rem;
+}
+
+.sgn {
+    height: 70px;
+}
