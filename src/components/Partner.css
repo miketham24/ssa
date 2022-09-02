@@ -1,6 +1,7 @@
 .partner-container {
-    background-color: white;
-    height: 40vh;
+    background-color: #fff;
+    height: 45rem;
+    box-shadow: none;
 }
 
 .partner-h1 {
@@ -10,10 +11,56 @@
     padding-top: 3rem;
 }
 
+.sgn-partner {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: -3rem;
+}
+
 .companies {
-    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
 }
 
 .sgn {
-    height: 70px;
+    height: 9rem;
+    padding: 3rem;
+}
+
+.sgn2 {
+    height: 12rem;
+    padding: 3rem;
+}
+
+.sgn3 {
+    height: 12rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.bc {
+    height: 9rem;
+}
+
+.mc {
+    height: 11rem;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 416px) {
+    .partner-container {
+        height: 35rem;
+    }
+
+    .partner-h1 {
+        padding-top: 1rem;
+    }
+
+    .companies {
+        padding-bottom: 2rem;
+    }
+
 }

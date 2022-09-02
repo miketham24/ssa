@@ -1,7 +1,7 @@
 .whyus {
     padding: 2rem;
-    background: blanchedalmond;
-    height: 55vh;
+    background: #FFDFD3;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    max-height: 20rem;
     padding: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
@@ -39,6 +39,7 @@
 .icon-living {
     margin-bottom: 10px;
     font-size: 3rem;
+    color: brown;
 }
 
 .whyus-h1 {
@@ -48,8 +49,9 @@
 }
 
 .whyus-p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
+    max-height: fit-content;
 }
 
 .whyus-h2 {
@@ -65,7 +67,7 @@ transition-duration: 3000ms;
     
   @media only screen and (max-width: 768px) {
     .whyus {
-      height:150vh;
+      height: 55rem;
     }
     .whyus-wrapper{
         grid-template-columns: 1fr;

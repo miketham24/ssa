@@ -43,7 +43,7 @@ function Navbar() {
         <div className='navbar-container'>
           <div className='navbar-logo' onClick = {() =>
           scroll.scrollToTop()}>
-          <img src="images/qwerty.jpg" alt='SSA logo' class='logo-image' />
+          <img src="images/qwerty.jpg" alt='SSA logo' className='logo-image' />
              <h1 className='nav-h1'>UBC SSA</h1>
              </div>
           <div className='menu-icon' onClick={handleClick}>

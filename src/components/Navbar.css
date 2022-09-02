@@ -12,7 +12,7 @@
 }
 
 .navbar.active{
-  background: linear-gradient(90deg, rgb(250, 55, 55) 0%, rgb(250, 55, 55) 100%);
+  background:#C94949;
 }
 
 .navbar-container {

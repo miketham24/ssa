@@ -5,50 +5,80 @@ import Carousel from 'react-elastic-carousel';
 
 const breakPoints =[
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 960, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 550, itemsToShow: 2, itemsToScroll:2},
+  { width: 768, itemsToShow: 3, itemsToScroll:3},
+  { width: 1200, itemsToShow: 3, itemsToScroll:3},
+  { width: 1450, itemsToShow: 5, itemsToScroll:5},
+  { width: 1750, itemsToShow: 6, itemsToScroll:6},
 ]
 
 function Cards() {
   return (
     <>
-    <div className='cards' id="events">
+    <div className='cards' id="events" >
       <h1 className='cards-h1' data-aos="fade-up">Events!</h1>
       <h3 className='cards-h3' data-aos="fade-up" data-aos-duration="2800">Join us to experience Singaporean culture through celebrating national festivals, activities, and socials!</h3>
       <div className='cards__container' data-aos="fade-up" data-aos-duration="3200">
         <Carousel breakPoints={breakPoints}>
             <CardItem
+              src='images/lasert2022.jpg'
+              text='Laser Tag Social'
+              label='2022'
+              path='/'
+            />
+            <CardItem
               src='images/msn2022.JPG'
-              text='Malaysia Singapore Night 2022'
+              text='MSN'
               label='2022'
               path='https://www.instagram.com/p/CbmApL3OYq4/'
             />
             <CardItem
               src='images/cnygames2022.jpg'
-              text='CNY Games Night 2022'
+              text='CNY Games Night'
               label='2022'
               path='https://www.instagram.com/p/Cat6PFDLaqr/'
             />
             <CardItem
               src='images/cny22.jpg'
-              text='Caligraphy and Trivia Night 2022'
+              text='Caligraphy Night'
               label='2022'
               path='https://www.instagram.com/p/CZvWaqXFZpt/'
             />
             <CardItem
+              src='images/tasteofsea.jpg'
+              text='Taste of SEA'
+              label='2021'
+              path='https://www.instagram.com/p/CWzpXourvQ1/'
+            />
+            <CardItem
               src='images/deep21.jpg'
-              text='Deepavali 2021'
+              text='Deepavali'
               label='2021'
               path='https://www.instagram.com/p/CWFS_jNjhyz/'
             />
             <CardItem
+              src='images/social2021.png'
+              text='A bunch of socials!'
+              label='2021'
+              path='https://www.instagram.com/p/CVl_V7dpWbs/'
+            />
+            <CardItem
               src='images/ice21yuh.jpg'
-              text='Ice Breaker 2021'
+              text='Ice Breaker'
               label='2021'
               path='https://www.instagram.com/p/CT5-XQjlyHB/'
             />
         </Carousel>
+      </div>
+      <div className='upcoming__container' data-aos="flip-left" data-aos-duration="2800">
+        <h1 className='upcoming-h1' data-aos="fade-up">Our Next <span className='up'>Upcoming</span> Event:</h1>
+            <CardItem
+              src='images/ice21yuh.jpg'
+              text='Ice Breaker'
+              label='2022'
+              path='https://www.instagram.com/p/CT5-XQjlyHB/'
+              className='upcoming-event'
+            />
       </div>
     </div>
     </>

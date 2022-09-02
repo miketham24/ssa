@@ -1,5 +1,5 @@
 .about2-container {
-  background-color: #ffcccb;
+  background-color: #C94949;
   height: 70vh;
   overflow: hidden;
   display: flex;
@@ -16,23 +16,25 @@
   align-items: center;
   justify-content: center;
   height: 450px;
-  width: 100%;
 }
 .text2{
   font-size: 25px;
   line-height: 1.2;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   margin-bottom: 40px;
   margin-left: 120px;
+  color:#fff;
 }
+
 .ssa-p2{
   width:75vh;
   font-size: 16px;
   line-height: 1.2;
   padding-top: 2rem;
+  color:#fff;
 }
 
 .ssa-gallery2{
@@ -50,23 +52,39 @@
   width:80%;
 }
 
+.team{
+  object-fit: fill;
+  width: 70%;
+}
+
 .w{
   white-space: nowrap;
-  color:#fca5a5;
+  font-size:200%;
+  font-weight:bold;
 }
+
+/* .w2 {
+  box-shadow: inset 0px -2px 0px white;
+} */
 
 @media screen and (max-width: 960px) {
   .about2-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    height:70vh;
+    /* height:70vh; */
+    flex-direction: column;
+    height: auto;
     }
   .text2{
     margin-right: 110px;
     margin-bottom: 10px;
     align-items: center;
     text-align: center;
+  }
+
+  .w{
+    font-size: 4rem;
   }
   
   .ssa-p2{
@@ -78,8 +96,14 @@
     text-align: center;
   }
 
+  .ssa-gallery2{
+    height: auto;
+    margin-bottom: 2rem;
+    /* width: auto; */
+  }
+
   .test{
-    visibility: none;
+    
   }
 
 }

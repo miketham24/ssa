@@ -26,7 +26,7 @@ function HeroSection() {
           2500,
           'family',
           2500]}/>
-        away from home <span class="sgflag" role="img" aria-label="sg flag">🇸🇬</span></h1>
+        away from home <span className="sgflag" role="img" aria-label="sg flag">🇸🇬</span></h1>
       <div className='hero-btns' data-aos="fade-right" data-aos-duration="2800">
         <Button
           className='btns'

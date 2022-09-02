@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-  height: 100vh;
+  height: 50rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ video {
 
 .hero-btns {
   margin-top: 32px;
-  color:#ff444e;
+  color:#C94949;
   transition: all .2s ease-in-out;
 }
 
@@ -35,7 +35,7 @@ video {
 }
 
 .hero-btns .btn {
-  background-color: #ff444e;
+  background-color: #C94949;
   outline: none;
   color:#fff;
   margin: 6px;
