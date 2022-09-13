@@ -122,8 +122,13 @@
   visibility: hidden;
 }
 
-.rec.rec-pagination{
-  color: #ff5454; 
+.krmNah {
+  background-color: #ff5454;
+}
+
+.krmNah:hover, .krmNah:focus {
+  cursor: pointer;
+  box-shadow: 0 0 1px 3px #ff5454;
 }
 
 h3[data-aos-duration='2800'] [data-aos],
@@ -171,5 +176,8 @@ div[data-aos-duration='3200'] [data-aos],
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+  .upcoming__container{
+    display: block;
   }
 }

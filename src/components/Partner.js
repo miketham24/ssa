@@ -16,8 +16,8 @@ function Partner() {
             data-aos="zoom-out-up"/>
       </div>
       <div className='companies'>
-        <Marquee pauseOnHover={true} speed={50} gradientColor={[248,251,253]}
-        gradientWidth={180}>
+        <Marquee pauseOnHover={true} speed={40} gradientColor={[248,251,253]}
+        gradientWidth={120}>
           <img src='images/sgn.jpg' alt='sgn' className='sgn2'/>
           <img src='images/vsc.jpeg' alt='vsc' className='sgn' />
           <img src='images/majulah.jpg' alt='ms' className='sgn' />
@@ -28,7 +28,7 @@ function Partner() {
           <img src='images/chatime.png' alt='chatime' className='sgn' />
         </Marquee>
         <Marquee pauseOnHover={true} speed={30} gradientColor={[248,251,253]}
-        gradientWidth={180} direction={'right'}>
+        gradientWidth={120} direction={'right'}>
           <img src='images/rpr.png' alt='rpr' className='mc' />
           <img src='images/yeo.png' alt='yeo' className='sgn' />
           <img src='images/pb.png' alt='pb' className='mc' />

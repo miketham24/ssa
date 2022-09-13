@@ -1,13 +1,11 @@
 import React from 'react';
 import './Team.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 import TeamItem from './TeamItem';
 
 
 function Team() {
   return (
-    <div className='team-section'>
+    <div className='team-section' id="team">
       <h1 className='team-h1'>
         Our Team (2021/2022)</h1>
       <div className='cards__container' data-aos="zoom-in-left" data-aos-duration="3200">
@@ -19,7 +17,7 @@ function Team() {
               path='/'
             />
             <TeamItem
-              src='images/bella.png'
+              src='images/keri.png'
               text='Christabella Tan'
               role='Vice President'
               path='/'

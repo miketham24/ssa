@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
     <Announcement
-        title="NEXT EVENT: SSA ICEBREAKER (29th SEPT 2022)"
+        title="NEXT EVENT: SSA ICEBREAKER (30th SEPT 2022)"
         subtitle="Come meet other Singaporeans, eat some good FOOD, and have a great time!"
         link="https://forms.gle/LejsKADbA5BtM9z99"
         imageSource='images/ice21yuh.jpg'

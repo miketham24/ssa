@@ -13,6 +13,15 @@
 
 .navbar.active{
   background:#C94949;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-top: -80px;
 }
 
 .navbar-container {
@@ -94,12 +103,17 @@
   }
   .nav-bar{
     color:#ff5454;
+    top:0;
+    left:0;
+    width: 100%;
+    position: fixed;
+    display: flex;
   }
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 56vh;
+    height: auto;
     position: absolute;
     top: 80px;
     left: -100%;
