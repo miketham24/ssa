@@ -23,19 +23,19 @@ function Team() {
               path='/'
             />
             <TeamItem
-              src='images/alison.png'
+              src='images/keri.png'
               text='Alison Lin'
               role='Treasurer'
               path='/'
             />
             <TeamItem
-              src='images/dom.png'
+              src='images/keri.png'
               text='Dominic Chua'
               role='Secetary'
               path='/'
             />
             <TeamItem
-              src='images/steffi.png'
+              src='images/keri.png'
               text='Steffi Chang'
               role='Marketing Director'
               path='/'
@@ -43,19 +43,19 @@ function Team() {
             </ul>
             <ul className='cards__items'>
             <TeamItem
-              src='images/cris.png'
+              src='images/keri.png'
               text='Cristiana Bonifacio'
               role='Marketing Director'
               path='/'
             />
             <TeamItem
-              src='images/josh.png'
+              src='images/keri.png'
               text='Joshua Teo'
               role='Logistics Director'
               path='/'
             />
             <TeamItem
-              src='images/el.png'
+              src='images/keri.png'
               text='Elisabeth Chew'
               role='Logistics Director'
               path='/'
@@ -81,7 +81,7 @@ function Team() {
               path='/'
             />
             <TeamItem
-              src='images/carissa.png'
+              src='images/keri.png'
               text='Carissa Chua'
               role='Events Director'
               path='/'
@@ -93,7 +93,7 @@ function Team() {
             path='/'
             />
             <TeamItem
-              src='images/mike.png'
+              src='images/keri.png'
               text='Michael Tham'
               role='Events Coordinator'
               path='/'
