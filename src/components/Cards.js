@@ -71,7 +71,7 @@ function Cards() {
         </Carousel>
       </div>
       <div className='upcoming__container' data-aos="flip-left" data-aos-duration="2800">
-        <h1 className='upcoming-h1' data-aos="fade-up">Our Next <span className='up'>Upcoming</span> Event:</h1>
+        <h1 className='upcoming-h1' data-aos="fade-up">Our<span className='up'>Upcoming</span> Event:</h1>
             <CardItem
               src='images/ice21yuh.jpg'
               text='Ice Breaker'
