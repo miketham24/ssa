@@ -1,1 +1,1 @@
-https://ssa-two.vercel.app/!
+https://ssa-two.vercel.app/
