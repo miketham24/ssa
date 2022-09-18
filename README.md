@@ -1,1 +1,2 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://ssa-two.vercel.app/!
+[Uploading Screenshot 2022-09-18 at 2.39.00 AM.png…]()
