@@ -17,25 +17,25 @@ function Team() {
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/bella.jpg'
               text='Christabella Tan'
               role='Vice President'
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/alison.jpg'
               text='Alison Lin'
               role='Treasurer'
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/dom.jpg'
               text='Dominic Chua'
               role='Secetary'
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/steffi.jpg'
               text='Steffi Chang'
               role='Marketing Director'
               path='/'
@@ -43,19 +43,19 @@ function Team() {
             </ul>
             <ul className='cards__items'>
             <TeamItem
-              src='images/keri.png'
+              src='images/cris.jpg'
               text='Cristiana Bonifacio'
               role='Marketing Director'
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/josh.jpg'
               text='Joshua Teo'
               role='Logistics Director'
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/el.jpg'
               text='Elisabeth Chew'
               role='Logistics Director'
               path='/'
@@ -81,7 +81,7 @@ function Team() {
               path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/carissa.jpeg'
               text='Carissa Chua'
               role='Events Director'
               path='/'
@@ -93,7 +93,7 @@ function Team() {
             path='/'
             />
             <TeamItem
-              src='images/keri.png'
+              src='images/mike.jpg'
               text='Michael Tham'
               role='Events Coordinator'
               path='/'
