@@ -76,7 +76,7 @@ function Cards() {
               src='images/ice21yuh.jpg'
               text='Ice Breaker'
               label='2022'
-              path='https://www.instagram.com/p/CT5-XQjlyHB/'
+              path='https://www.instagram.com/p/Ci1BDyFJe-8/'
               className='upcoming-event'
             />
       </div>
