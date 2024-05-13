@@ -11,21 +11,31 @@ function Footer() {
   const [status, setStatus] = useState(false);
   const [type, setType] = useState("");
   const [title, setTitle] = useState("");
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_uzpwszc', 'ssa_template' , form.current, 'n8o_5KUUNA5PYKjQW')
-        .then((result) => {
-            console.log(result.text);
-            console.log("Message sent!");
-            setStatus(true);
-            setType("success");
-            setTitle("Message sent!");
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0k4z71m', 'ssa_template' , form.current, 'n8o_5KUUNA5PYKjQW')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message sent!");
+          setStatus(true);
+          setType("success");
+          setTitle("Message sent!");
+          
+          // Clear input fields
+          setName('');
+          setEmail('');
+          setSubject('');
+          setMessage('');
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <div className='footer-container2' id="footer">
@@ -98,6 +108,8 @@ function Footer() {
                 type='text'
                 placeholder='Your Name'
                 required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
               <input
                 className='footer-input'
@@ -105,14 +117,27 @@ function Footer() {
                 type='email'
                 placeholder='Your Email'
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 className='footer-input'
                 name="subject"
                 type='text'
                 placeholder='Your Subject'
+                required
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
               />
-              <textarea className='footer-input' name="message" rows="7" placeholder='Your Message' required/>
+              <textarea 
+                className='footer-input' 
+                name="message" 
+                rows="7" 
+                placeholder='Your Message' 
+                required
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                />
               <Button buttonStyle='btn--outline' type="submit" value="Send" textColor={'#000000'} borderColor={'#000000'}
               onClick={sendEmail}>Send Message &nbsp;<i className="fa fa-arrow-right"></i></Button>
               <ReactJsAlert
@@ -120,7 +145,7 @@ function Footer() {
                   type={type} // success, warning, error, info
                   title={title}
                   quotes={true}
-                  quote=" Your message has been sent! Please allow 3 business days for our response."
+                  quote="Your message has been sent! Please allow 3 business days for our response."
                   Close={() => setStatus(false)}/>
             </form>
           </div>
