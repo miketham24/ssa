@@ -123,8 +123,7 @@ function Footer() {
                   title={title}
                   quotes={true}
                   quote=" Your message has been sent! Please allow 3 business days for our response."
-                  Close={() => setStatus(false)}
-        />
+                  Close={() => setStatus(false)}/>
             </form>
           </div>
         </div>
