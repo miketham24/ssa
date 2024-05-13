@@ -7,7 +7,7 @@ function Navbar() {
   const [click, setClick] = useState(false);
   // const [dropdown, setDropdown] = useState(false);
   const [navbar, setNavbar] = useState(false);
-  const [fix, setFix] = useState(false);
+ // const [fix, setFix] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
