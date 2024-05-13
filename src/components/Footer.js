@@ -4,8 +4,6 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import ReactJsAlert from "reactjs-alert";
-import { BorderColor } from '@material-ui/icons';
-
 
 function Footer() {
     
