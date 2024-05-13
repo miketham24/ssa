@@ -11,21 +11,21 @@ function Footer() {
   const [status, setStatus] = useState(false);
   const [type, setType] = useState("");
   const [title, setTitle] = useState("");
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_0k4z71m', 'ssa_template' , form.current, 'n8o_5KUUNA5PYKjQW')
-        .then((result) => {
-            console.log(result.text);
-            console.log("Message sent!");
-            setStatus(true);
-            setType("success");
-            setTitle("Message sent!");
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0k4z71m', 'ssa_template' , form.current, 'n8o_5KUUNA5PYKjQW')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message sent!");
+          setStatus(true);
+          setType("success");
+          setTitle("Message sent!");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <div className='footer-container2' id="footer">
@@ -111,6 +111,7 @@ function Footer() {
                 name="subject"
                 type='text'
                 placeholder='Your Subject'
+                required
               />
               <textarea className='footer-input' name="message" rows="7" placeholder='Your Message' required/>
               <Button buttonStyle='btn--outline' type="submit" value="Send" textColor={'#000000'} borderColor={'#000000'}
