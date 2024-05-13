@@ -4,6 +4,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import ReactJsAlert from "reactjs-alert";
+import { BorderColor } from '@material-ui/icons';
 
 
 function Footer() {
@@ -114,16 +115,15 @@ function Footer() {
                 placeholder='Your Subject'
               />
               <textarea className='footer-input' name="message" rows="7" placeholder='Your Message' required/>
-              <Button buttonStyle='btn--outline' type="submit" value="Send"
+              <Button buttonStyle='btn--outline' type="submit" value="Send" textColor={'#000000'} borderColor={'#000000'}
               onClick={sendEmail}>Send Message &nbsp;<i className="fa fa-arrow-right"></i></Button>
               <ReactJsAlert
                   status={status} // true or false
                   type={type} // success, warning, error, info
                   title={title}
                   quotes={true}
-                  quote="Please allow 1-3 business days for our response."
-                  Close={() => setStatus(false)}
-        />
+                  quote=" Your message has been sent! Please allow 3 business days for our response."
+                  Close={() => setStatus(false)}/>
             </form>
           </div>
         </div>
