@@ -15,7 +15,7 @@ function Footer() {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_uzpwszc', 'ssa_template' , form.current, 'n8o_5KUUNA5PYKjQW')
+      emailjs.sendForm('service_0k4z71m', 'ssa_template' , form.current, 'n8o_5KUUNA5PYKjQW')
         .then((result) => {
             console.log(result.text);
             console.log("Message sent!");
@@ -120,7 +120,7 @@ function Footer() {
                   type={type} // success, warning, error, info
                   title={title}
                   quotes={true}
-                  quote=" Your message has been sent! Please allow 3 business days for our response."
+                  quote="Your message has been received! Please allow 3 business days for our response."
                   Close={() => setStatus(false)}/>
             </form>
           </div>
