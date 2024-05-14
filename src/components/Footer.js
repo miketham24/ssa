@@ -80,15 +80,15 @@ function Footer() {
                 <i className='fab fa-linkedin' />
               </Link>
               <Link
-                className='social-icon-link discord'
+                className='social-icon-link tiktok'
                 target='_blank'
-                aria-label='Discord'
+                aria-label='Tiktok'
                 onClick={(e) => {
                   e.preventDefault();
-                  window.open('https://discord.com/invite/dyPydJK');
+                  window.open('https://www.tiktok.com/@theubcssa');
                   }}
               >
-                <i className='fab fa-discord' />
+                <i className='fab fa-tiktok' />
               </Link>
             </div>
           </div>

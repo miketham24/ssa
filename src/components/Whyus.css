@@ -39,7 +39,10 @@
 .icon-living {
     margin-bottom: 10px;
     font-size: 3rem;
-    color: brown;
+}
+
+.fa, .fab{
+    color:brown !important;
 }
 
 .whyus-h1 {
