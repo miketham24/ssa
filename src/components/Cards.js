@@ -73,10 +73,10 @@ function Cards() {
       <div className='upcoming__container' data-aos="flip-left" data-aos-duration="2800">
         <h1 className='upcoming-h1' data-aos="fade-up">Our <span className='up'>Upcoming</span> Event:</h1>
             <CardItem
-              src='images/ice21yuh.jpg'
-              text='Ice Breaker'
-              label='2022'
-              path='https://www.instagram.com/p/Ci1BDyFJe-8/'
+              src='images/event_photos/welcomebkbbq.jpeg'
+              text='Welcome Back BBQ'
+              label='2024'
+              path=''
               className='upcoming-event'
             />
       </div>
