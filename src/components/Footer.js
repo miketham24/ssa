@@ -46,6 +46,28 @@ function Footer() {
           <section className='social-media'>
           <div className='social-media-wrap'>
             <div className='social-icons'>
+            <Link
+                className='social-icon-link instagram'
+                target='_blank'
+                aria-label='Instagram'
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open('https://www.instagram.com/theubcssa/');
+                  }}
+              >
+                <i className='fab fa-instagram' />
+              </Link>
+              <Link
+                className='social-icon-link tiktok'
+                target='_blank'
+                aria-label='Tiktok'
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open('https://www.tiktok.com/@theubcssa');
+                  }}
+              >
+                <i className='fab fa-tiktok' />
+              </Link>
               <Link
                 className='social-icon-link facebook'
                 target='_blank'
@@ -58,17 +80,6 @@ function Footer() {
                 <i className='fab fa-facebook-square' />
               </Link>
               <Link
-                className='social-icon-link instagram'
-                target='_blank'
-                aria-label='Instagram'
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open('https://www.instagram.com/theubcssa/');
-                  }}
-              >
-                <i className='fab fa-instagram' />
-              </Link>
-              <Link
                 className='social-icon-link linkedin'
                 target='_blank'
                 aria-label='LinkedIn'
@@ -78,17 +89,6 @@ function Footer() {
                   }}
               >
                 <i className='fab fa-linkedin' />
-              </Link>
-              <Link
-                className='social-icon-link tiktok'
-                target='_blank'
-                aria-label='Tiktok'
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open('https://www.tiktok.com/@theubcssa');
-                  }}
-              >
-                <i className='fab fa-tiktok' />
               </Link>
             </div>
           </div>
