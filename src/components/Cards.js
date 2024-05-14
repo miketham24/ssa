@@ -22,6 +22,84 @@ function Cards() {
         <Carousel breakPoints={breakPoints}>
             <CardItem
               src='images/lasert2022.jpg'
+              text='MSN'
+              label='2024'
+              path='https://www.instagram.com/p/C4rTNanPamg/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Games Night'
+              label='2024'
+              path='https://www.instagram.com/p/C4UPJCLSlaW/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='CNY'
+              label='2024'
+              path='https://www.instagram.com/p/C28y7tJrgY_/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Taste of SEA'
+              label='2023'
+              path='https://www.instagram.com/p/C0ad-qvLb-E/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Deepavali'
+              label='2023'
+              path='https://www.instagram.com/p/CzfYaKer0to/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Ice Breaker'
+              label='2023'
+              path='https://www.instagram.com/p/Cx9MuaYPTeA/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='National Day BBQ'
+              label='2023'
+              path='https://www.instagram.com/p/CvqYSGAyyCg/'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='MSN'
+              label='2023'
+              path='https://www.instagram.com/p/CqPTP3yOgmq/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Games Night'
+              label='2023'
+              path='https://www.instagram.com/p/CqJzDQSp3ZO/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='CNY'
+              label='2023'
+              path='https://www.instagram.com/p/CoEVpUCuGsr/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Taste of SEA'
+              label='2022'
+              path='https://www.instagram.com/p/ClflXq7uCU_/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Deepavali'
+              label='2022'
+              path='https://www.instagram.com/p/CkPymJqO5ni/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
+              text='Ice Breaker'
+              label='2022'
+              path='https://www.instagram.com/p/CjedJ0FLXKZ/?img_index=1'
+            />
+            <CardItem
+              src='images/lasert2022.jpg'
               text='Laser Tag Social'
               label='2022'
               path='/'
