@@ -9,7 +9,7 @@ function About() {
       <div className="section2">
         <div className="text2">
           <h1 data-aos="fade-up-right">
-          <span className="w"> Singapore </span> <br />
+          <span className="w"> UBC Singapore </span> <br />
           <span>  Students' Association </span> 
          </h1>
          <div className='ssa-p2' data-aos="fade-up">
@@ -23,8 +23,7 @@ function About() {
         </div>
       <div className='ssa-gallery2' data-aos="fade-left">
       <Carousel enableAutoPlay autoPlaySpeed={6000} showArrows={false} pagination={false}>
-          <img src='images/ssateam.JPG' alt='ssa team' className='test' />
-          {/* <img src='images/teamsg3.jpg' alt='ssa team' className='team' /> */}
+          <img src='images/team_photos/aboutteamphoto.jpeg' alt='ssa team' className='test' />
       </Carousel>
       </div>
  </div>
