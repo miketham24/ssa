@@ -8,7 +8,7 @@ function Partner() {
       <h1 className='partner-h1' data-aos="zoom-in-down">Looking to reach a wide student audience? Partner with <a href="https://drive.google.com/file/d/1zBUtMGnCm5lgbo08Bd-uo-6dAdlTSDj7/view?usp=sharing" target="_blank" rel="noopener noreferrer">us</a>!</h1>
       <div className='sgn-partner'>
       <h2 data-aos="zoom-out-up">Our biggest partner: </h2>
-      <img src='images/sgn.jpg' alt='sgn' className='sgn3' 
+      <img src='images/partners/sgn.jpg' alt='sgn' className='sgn3' 
             onClick={(e) => {
             e.preventDefault();
             window.open('https://singaporeglobalnetwork.gov.sg/join-us/');

@@ -21,127 +21,121 @@ function Cards() {
       <div className='cards__container' data-aos="fade-up" data-aos-duration="3200">
         <Carousel breakPoints={breakPoints}>
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/msn2024.jpg'
               text='MSN'
               label='2024'
               path='https://www.instagram.com/p/C4rTNanPamg/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/games2024.png'
               text='Games Night'
               label='2024'
               path='https://www.instagram.com/p/C4UPJCLSlaW/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/CNY2024.png'
               text='CNY'
               label='2024'
               path='https://www.instagram.com/p/C28y7tJrgY_/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/tos22.png'
               text='Taste of SEA'
               label='2023'
               path='https://www.instagram.com/p/C0ad-qvLb-E/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/deep22.png'
               text='Deepavali'
               label='2023'
               path='https://www.instagram.com/p/CzfYaKer0to/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='Ice Breaker'
               label='2023'
               path='https://www.instagram.com/p/Cx9MuaYPTeA/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
-              text='National Day BBQ'
-              label='2023'
-              path='https://www.instagram.com/p/CvqYSGAyyCg/'
-            />
-            <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='MSN'
               label='2023'
               path='https://www.instagram.com/p/CqPTP3yOgmq/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='Games Night'
               label='2023'
               path='https://www.instagram.com/p/CqJzDQSp3ZO/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='CNY'
               label='2023'
               path='https://www.instagram.com/p/CoEVpUCuGsr/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='Taste of SEA'
               label='2022'
               path='https://www.instagram.com/p/ClflXq7uCU_/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='Deepavali'
               label='2022'
               path='https://www.instagram.com/p/CkPymJqO5ni/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='Ice Breaker'
               label='2022'
               path='https://www.instagram.com/p/CjedJ0FLXKZ/?img_index=1'
             />
             <CardItem
-              src='images/lasert2022.jpg'
+              src='images/event_photos/lasert2022.jpg'
               text='Laser Tag Social'
               label='2022'
               path='/'
             />
             <CardItem
-              src='images/msn2022.JPG'
+              src='images/event_photos/msn2022.JPG'
               text='MSN'
               label='2022'
               path='https://www.instagram.com/p/CbmApL3OYq4/'
             />
             <CardItem
-              src='images/cnygames2022.jpg'
+              src='images/event_photos/cnygames2022.jpg'
               text='CNY Games Night'
               label='2022'
               path='https://www.instagram.com/p/Cat6PFDLaqr/'
             />
             <CardItem
-              src='images/cny22.jpg'
+              src='imagesevent_photos//cny22.jpg'
               text='Caligraphy Night'
               label='2022'
               path='https://www.instagram.com/p/CZvWaqXFZpt/'
             />
             <CardItem
-              src='images/tasteofsea.jpg'
+              src='images/event_photos/tasteofsea.jpg'
               text='Taste of SEA'
               label='2021'
               path='https://www.instagram.com/p/CWzpXourvQ1/'
             />
             <CardItem
-              src='images/deep21.jpg'
+              src='images/event_photos/deep21.jpg'
               text='Deepavali'
               label='2021'
               path='https://www.instagram.com/p/CWFS_jNjhyz/'
             />
             <CardItem
-              src='images/social2021.png'
+              src='images/event_photos/social2021.png'
               text='A bunch of socials!'
               label='2021'
               path='https://www.instagram.com/p/CVl_V7dpWbs/'
             />
             <CardItem
-              src='images/ice21yuh.jpg'
+              src='images/event_photos/ice21yuh.jpg'
               text='Ice Breaker'
               label='2021'
               path='https://www.instagram.com/p/CT5-XQjlyHB/'

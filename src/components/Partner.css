@@ -22,7 +22,6 @@
 .companies {
     justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;
 }
 
 .sgn {
@@ -38,7 +37,7 @@
 .sgn3 {
     height: 12rem;
     padding-left: 3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .bc {
