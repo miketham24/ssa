@@ -17,10 +17,10 @@ function Home() {
     <Announcement
         title="NEXT EVENT: SSA Welcome Back BBQ (TBC SUMMER 2024)"
         subtitle="Make friendships, eat some good FOOD, and have a great time!"
-        link="https://forms.gle/LejsKADbA5BtM9z99"
-        imageSource='images/'
+        link="" // add rspv link here
+        imageSource='images/event_photos/welcomebkbbq.jpeg'
         buttonText="Register :D"
-        daysToLive={1}
+        daysToLive={null}
         secondsBeforeBannerShows={3}
         closeIconSize={30}
         animateInDuration={2000}
