@@ -51,43 +51,43 @@ function Cards() {
               path='https://www.instagram.com/p/CzfYaKer0to/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/icebreaker23.png'
               text='Ice Breaker'
               label='2023'
               path='https://www.instagram.com/p/Cx9MuaYPTeA/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/msn23.png'
               text='MSN'
               label='2023'
               path='https://www.instagram.com/p/CqPTP3yOgmq/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/games23.png'
               text='Games Night'
               label='2023'
               path='https://www.instagram.com/p/CqJzDQSp3ZO/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/cny23.png'
               text='CNY'
               label='2023'
               path='https://www.instagram.com/p/CoEVpUCuGsr/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/tos23.png'
               text='Taste of SEA'
               label='2022'
               path='https://www.instagram.com/p/ClflXq7uCU_/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/deep23.png'
               text='Deepavali'
               label='2022'
               path='https://www.instagram.com/p/CkPymJqO5ni/?img_index=1'
             />
             <CardItem
-              src='images/event_photos/lasert2022.jpg'
+              src='images/event_photos/ice22.png'
               text='Ice Breaker'
               label='2022'
               path='https://www.instagram.com/p/CjedJ0FLXKZ/?img_index=1'
@@ -111,7 +111,7 @@ function Cards() {
               path='https://www.instagram.com/p/Cat6PFDLaqr/'
             />
             <CardItem
-              src='imagesevent_photos//cny22.jpg'
+              src='images/event_photos/cny22.jpg'
               text='Caligraphy Night'
               label='2022'
               path='https://www.instagram.com/p/CZvWaqXFZpt/'
