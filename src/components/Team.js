@@ -4,25 +4,17 @@ import TeamItem from './TeamItem';
 
 const teamData = {
   2024: [
-    { src: 'images/team_photos/2021team/.jpeg', text: 'Aarthi Krishnan', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Wong', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2021team/mike.jpg', text: 'Michael Tham', role: 'Treasurer', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Ria Harjani', role: 'Secetary', path: '/' },
-    { src: 'images/team_photos/2021team/steffi.jpg', text: 'Angela Yandrofski', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/cris.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Denise Ong', role: 'Social Media Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Soh', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/el.jpg', text: 'Leopold Tse', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/el.jpg', text: 'Virginia Tung', role: 'Logistics Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Victoria Cheah', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Charlene Medina', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Foo Yong Ming', role: 'Outreach Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/mar.png', text: 'Cristiana Bonifacio', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2021team/kyle.png', text: 'Elisabeth Chew', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Pinn Yee Scott', role: 'Events Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Emma Lim', role: 'Events Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/mar.png', text: 'Mariena Teo', role: 'Internal Director', path: '/' },
-    { src: 'images/team_photos/2021team/carissa.jpeg', text: 'Carissa Chua', role: 'Internal Director', path: '/' }
+    // Data for 2024/2025 team
+    { src: 'images/team_photos/2021team/.jpeg', text: 'Victoria Cheah', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Soh', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Foo Yong Ming', role: 'Treasurer', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Alyssa Tang', role: 'Secetary', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Nicholas Low', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2021team/.png', text: 'Jamey Laoroekutai', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2021team/.png', text: 'Bruno Brett', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2021team/.png', text: 'Daphne Sng', role: 'Events Director', path: '/' },
   ],
   2023: [
     // Data for 2023/2024 team
@@ -30,17 +22,17 @@ const teamData = {
     { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Wong', role: 'Co-President', path: '/' },
     { src: 'images/team_photos/2021team/mike.jpg', text: 'Michael Tham', role: 'Treasurer', path: '/' },
     { src: 'images/team_photos/2021team/.jpg', text: 'Ria Harjani', role: 'Secetary', path: '/' },
-    { src: 'images/team_photos/2021team/steffi.jpg', text: 'Angela Yandrofski', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/cris.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Angela Yandrofski', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Denise Ong', role: 'Social Media Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Soh', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/el.jpg', text: 'Leopold Tse', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/el.jpg', text: 'Virginia Tung', role: 'Logistics Coordinator', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Leopold Tse', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2021team/.jpg', text: 'Virginia Tung', role: 'Logistics Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Victoria Cheah', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Charlene Medina', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Foo Yong Ming', role: 'Outreach Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/mar.png', text: 'Cristiana Bonifacio', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2021team/kyle.png', text: 'Elisabeth Chew', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2021team/.png', text: 'Cristiana Bonifacio', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2021team/.png', text: 'Elisabeth Chew', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2021team/.jpg', text: 'Pinn Yee Scott', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/.jpg', text: 'Emma Lim', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/mar.png', text: 'Mariena Teo', role: 'Internal Director', path: '/' },
@@ -89,7 +81,7 @@ const teamData = {
 
 function Team() {
 
-  const [year, setYear] = useState(2021);
+  const [year, setYear] = useState(2024);
 
   const handleYearChange = (selectedYear) => {
     setYear(selectedYear);
