@@ -18,44 +18,44 @@ const teamData = {
   ],
   2023: [
     // Data for 2023/2024 team
-    { src: 'images/team_photos/2021team/.jpeg', text: 'Aarthi Krishnan', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Wong', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2022team/aarthi.JPG', text: 'Aarthi Krishnan', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2022team/mattw.JPG', text: 'Matthew Wong', role: 'Co-President', path: '/' },
     { src: 'images/team_photos/2021team/mike.jpg', text: 'Michael Tham', role: 'Treasurer', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Ria Harjani', role: 'Secetary', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Angela Yandrofski', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Denise Ong', role: 'Social Media Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Soh', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Leopold Tse', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Virginia Tung', role: 'Logistics Coordinator', path: '/' },
+    { src: 'images/team_photos/2022team/ria.jpg', text: 'Ria Harjani', role: 'Secetary', path: '/' },
+    { src: 'images/team_photos/2022team/ang.jpg', text: 'Angela Yandrofski', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2023team/zara.JPG', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2023team/ise.JPG', text: 'Denise Ong', role: 'Social Media Coordinator', path: '/' },
+    { src: 'images/team_photos/2023team/matts.JPG', text: 'Matthew Soh', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2023team/leo.JPG', text: 'Leopold Tse', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2023team/virg.png', text: 'Virginia Tung', role: 'Logistics Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Victoria Cheah', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Charlene Medina', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Foo Yong Ming', role: 'Outreach Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Cristiana Bonifacio', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Elisabeth Chew', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Pinn Yee Scott', role: 'Events Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Emma Lim', role: 'Events Coordinator', path: '/' },
+    { src: 'images/team_photos/2022team/char.JPG', text: 'Charlene Medina', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2023team/ym.JPG', text: 'Foo Yong Ming', role: 'Outreach Coordinator', path: '/' },
+    { src: 'images/team_photos/2021team/cris.JPG', text: 'Cristiana Bonifacio', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2021team/el.JPG', text: 'Elisabeth Chew', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2023team/py.JPG', text: 'Pinn Yee Scott', role: 'Events Coordinator', path: '/' },
+    { src: 'images/team_photos/2023team/emma.JPG', text: 'Emma Lim', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/mar.png', text: 'Mariena Teo', role: 'Internal Director', path: '/' },
-    { src: 'images/team_photos/2021team/carissa.jpeg', text: 'Carissa Chua', role: 'Internal Director', path: '/' }
+    { src: 'images/team_photos/2021team/car.JPG', text: 'Carissa Chua', role: 'Internal Director', path: '/' }
   ],
   2022: [
     // Data for 2022/2023 team
     { src: 'images/team_photos/2021team/josh.jpg', text: 'Joshua Teo', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2021team/carissa.jpeg', text: 'Carissa Chua', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2021team/car.JPG', text: 'Carissa Chua', role: 'Co-President', path: '/' },
     { src: 'images/team_photos/2021team/mike.jpg', text: 'Michael Tham', role: 'Treasurer', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Aarthi Krishnan', role: 'Secetary', path: '/' },
+    { src: 'images/team_photos/2022team/aarthi.JPG', text: 'Aarthi Krishnan', role: 'Secetary', path: '/' },
     { src: 'images/team_photos/2021team/steffi.jpg', text: 'Steffi Chang', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2021team/cris.jpg', text: 'Cristiana Bonifacio', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Wong', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/el.jpg', text: 'Elisabeth Chew', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Victoria Cheah', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Charlene Medina', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2022team/mattw.JPG', text: 'Matthew Wong', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2022team/el.JPG', text: 'Elisabeth Chew', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2022team/.png', text: 'Victoria Cheah', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2022team/char.JPG', text: 'Charlene Medina', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/mar.png', text: 'Mariena Teo', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2021team/kyle.png', text: 'Kyle Azarae', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Jamey Laoroekutai', role: 'Events Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Ria Harjani', role: 'Events Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Kylie Ng', role: 'Events Coordinator', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Angela Yandrofski', role: 'Graphic Designer', path: '/' }
+    { src: 'images/team_photos/2022team/.jpg', text: 'Jamey Laoroekutai', role: 'Events Coordinator', path: '/' },
+    { src: 'images/team_photos/2022team/ria.JPG', text: 'Ria Harjani', role: 'Events Coordinator', path: '/' },
+    { src: 'images/team_photos/2022team/ky.JPG', text: 'Kylie Ng', role: 'Events Coordinator', path: '/' },
+    { src: 'images/team_photos/2022team/ang.JPG', text: 'Angela Yandrofski', role: 'Graphic Designer', path: '/' }
   ],
   2021: [
     // Data for 2021/2022 team
@@ -66,11 +66,11 @@ const teamData = {
     { src: 'images/team_photos/2021team/steffi.jpg', text: 'Steffi Chang', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2021team/cris.jpg', text: 'Cristiana Bonifacio', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2021team/josh.jpg', text: 'Joshua Teo', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/el.jpg', text: 'Elisabeth Chew', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2022team/el.jpg', text: 'Elisabeth Chew', role: 'Logistics Director', path: '/' },
     { src: 'images/team_photos/2021team/sarah.png', text: 'Sarah Ong', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/ella.png', text: 'Ella Cheah', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/gauri.png', text: 'Gauri Gupta', role: 'Admin Director', path: '/' },
-    { src: 'images/team_photos/2021team/carissa.jpeg', text: 'Carissa Chua', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2021team/car.JPG', text: 'Carissa Chua', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2021team/mar.png', text: 'Mariena Teo', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2021team/mike.jpg', text: 'Michael Tham', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/kyle.png', text: 'Kyle Azarae', role: 'Events Coordinator', path: '/' },
@@ -107,7 +107,7 @@ function Team() {
             />))}
             </ul>
        </div>
-       </div>
+    </div>
   );
 }
 
