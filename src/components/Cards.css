@@ -23,10 +23,21 @@
 
 .cards__items {
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .cards__item {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;

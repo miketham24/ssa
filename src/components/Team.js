@@ -87,6 +87,19 @@ function Team() {
     setYear(selectedYear);
   };
 
+  const renderTeamItems = (members) => {
+    return members.map((member, index) => (
+      <li className="cards__item" key={index}>
+        <TeamItem
+          src={member.src}
+          text={member.text}
+          role={member.role}
+          path={member.path}
+        />
+      </li>
+    ));
+  };
+
   return (
     <div className='team-section' id="team">
       <h1 className='team-h1'>
@@ -98,7 +111,7 @@ function Team() {
         <button onClick={() => handleYearChange(2021)}>2021/2022</button>
         </div>
       <div className='cards__container' data-aos="zoom-in-left" data-aos-duration="3200">
-        <ul className='cards__items'>
+        {/* <ul className='cards__items'>
           {teamData[year].map((member,index) => (
           <TeamItem
               key={index}
@@ -107,7 +120,10 @@ function Team() {
               role={member.role}
               path={member.path}
             />))}
-            </ul>
+            </ul> */}
+          <ul className="cards__items">
+          {renderTeamItems(teamData[year])}
+        </ul>
        </div>
     </div>
   );
