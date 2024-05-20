@@ -11,10 +11,10 @@ const teamData = {
     { src: 'images/team_photos/2021team/.jpg', text: 'Alyssa Tang', role: 'Secetary', path: '/' },
     { src: 'images/team_photos/2023team/py.jpg', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2023team/zara.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Nicholas Low', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Jamey Laoroekutai', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Bruno Brett', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2021team/.png', text: 'Daphne Sng', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2024team/nich.jpg', text: 'Nicholas Low', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2024team/jamey.jpg', text: 'Jamey Laoroekutai', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2024team/bruno.jpg', text: 'Bruno Brett', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2024team/daphne.jpg', text: 'Daphne Sng', role: 'Events Director', path: '/' },
   ],
   2023: [
     // Data for 2023/2024 team
@@ -52,7 +52,7 @@ const teamData = {
     { src: 'images/team_photos/2022team/char.JPG', text: 'Charlene Medina', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/mar.png', text: 'Mariena Teo', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2021team/kyle.png', text: 'Kyle Azarae', role: 'Events Director', path: '/' },
-    { src: 'images/team_photos/2022team/.jpg', text: 'Jamey Laoroekutai', role: 'Events Coordinator', path: '/' },
+    { src: 'images/team_photos/2024team/jamey.jpg', text: 'Jamey Laoroekutai', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2022team/ria.JPG', text: 'Ria Harjani', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2022team/ky.JPG', text: 'Kylie Ng', role: 'Events Coordinator', path: '/' },
     { src: 'images/team_photos/2022team/ang.JPG', text: 'Angela Yandrofski', role: 'Graphic Designer', path: '/' }
