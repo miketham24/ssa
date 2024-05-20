@@ -35,3 +35,24 @@
     flex-direction: column;
   }
 }
+
+.yr_btn_style{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.yr_btn_style button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.yr_btn_style button:hover {
+  background-color: #0056b3;
+}

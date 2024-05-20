@@ -6,11 +6,11 @@ const teamData = {
   2024: [
     // Data for 2024/2025 team
     { src: 'images/team_photos/2021team/.jpeg', text: 'Victoria Cheah', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Matthew Soh', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Foo Yong Ming', role: 'Treasurer', path: '/' },
+    { src: 'images/team_photos/2023team/matts.jpg', text: 'Matthew Soh', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2023team/ym.png', text: 'Foo Yong Ming', role: 'Treasurer', path: '/' },
     { src: 'images/team_photos/2021team/.jpg', text: 'Alyssa Tang', role: 'Secetary', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
-    { src: 'images/team_photos/2021team/.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2023team/py.jpg', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2023team/zara.jpg', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2021team/.jpg', text: 'Nicholas Low', role: 'Logistics Director', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Jamey Laoroekutai', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Bruno Brett', role: 'External Director', path: '/' },
@@ -30,7 +30,7 @@ const teamData = {
     { src: 'images/team_photos/2023team/virg.png', text: 'Virginia Tung', role: 'Logistics Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/.png', text: 'Victoria Cheah', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2022team/char.JPG', text: 'Charlene Medina', role: 'External Director', path: '/' },
-    { src: 'images/team_photos/2023team/ym.JPG', text: 'Foo Yong Ming', role: 'Outreach Coordinator', path: '/' },
+    { src: 'images/team_photos/2023team/ym.png', text: 'Foo Yong Ming', role: 'Outreach Coordinator', path: '/' },
     { src: 'images/team_photos/2021team/cris.JPG', text: 'Cristiana Bonifacio', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2021team/el.JPG', text: 'Elisabeth Chew', role: 'Events Director', path: '/' },
     { src: 'images/team_photos/2023team/py.JPG', text: 'Pinn Yee Scott', role: 'Events Coordinator', path: '/' },
@@ -91,10 +91,12 @@ function Team() {
     <div className='team-section' id="team">
       <h1 className='team-h1'>
         Our Executive Teams!</h1>
+        <div className='yr_btn_style'>
         <button onClick={() => handleYearChange(2024)}>2024/2025</button>
         <button onClick={() => handleYearChange(2023)}>2023/2024</button>
         <button onClick={() => handleYearChange(2022)}>2022/2023</button>
         <button onClick={() => handleYearChange(2021)}>2021/2022</button>
+        </div>
       <div className='cards__container' data-aos="zoom-in-left" data-aos-duration="3200">
         <ul className='cards__items'>
           {teamData[year].map((member,index) => (
