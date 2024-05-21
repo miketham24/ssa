@@ -49,9 +49,9 @@
     padding: 3rem;
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 960px) {
     .partner-container {
-        height: auto;
+        height: 50rem;
     }
 
     .partner-h1 {
@@ -60,6 +60,7 @@
 
     .companies {
         padding-top: 2rem;
+        margin-bottom: 2em;
     }
 
 }
