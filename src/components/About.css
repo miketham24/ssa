@@ -84,14 +84,14 @@
   }
 
   .w{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   .ssa-p2{
-    width:40vh;
+    width:35vh;
     margin-right: 10px;
     resize: horizontal;
-    font-size: 10px;
+    font-size: 13px;
     align-items: center;
     text-align: center;
   }
@@ -99,7 +99,6 @@
   .ssa-gallery2{
     height: auto;
     margin-bottom: 2rem;
-    /* width: auto; */
   }
 
 }

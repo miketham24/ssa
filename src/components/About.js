@@ -22,7 +22,10 @@ function About() {
           </div>
         </div>
       <div className='ssa-gallery2' data-aos="fade-left">
-      <Carousel enableAutoPlay autoPlaySpeed={6000} showArrows={false} pagination={false}>
+      <Carousel enableAutoPlay autoPlaySpeed={2000} showArrows={false} pagination={false}>
+          <img src='images/team_photos/aboutteamphoto.jpeg' alt='ssa team' className='test' />
+          <img src='images/ssateam.jpg' alt='ssa team' className='test' />
+          <img src='images/teamsg3.jpg' alt='ssa team' className='test' />
           <img src='images/team_photos/aboutteamphoto.jpeg' alt='ssa team' className='test' />
       </Carousel>
       </div>
