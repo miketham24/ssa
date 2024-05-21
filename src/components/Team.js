@@ -82,9 +82,11 @@ const teamData = {
 function Team() {
 
   const [year, setYear] = useState(2024);
+  const [selectedYear, setSelectedYear] = useState(2024);
 
   const handleYearChange = (selectedYear) => {
     setYear(selectedYear);
+    setSelectedYear(selectedYear);
   };
 
   const renderTeamItems = (members) => {
@@ -105,10 +107,10 @@ function Team() {
       <h1 className='team-h1'>
         Our Executive Teams!</h1>
         <div className='yr_btn_style'>
-        <button onClick={() => handleYearChange(2024)}>2024/2025</button>
-        <button onClick={() => handleYearChange(2023)}>2023/2024</button>
-        <button onClick={() => handleYearChange(2022)}>2022/2023</button>
-        <button onClick={() => handleYearChange(2021)}>2021/2022</button>
+        <button className={selectedYear === 2024 ? 'selected' : ''}onClick={() => handleYearChange(2024)}>2024/2025</button>
+        <button className={selectedYear === 2023 ? 'selected' : ''}onClick={() => handleYearChange(2023)}>2023/2024</button>
+        <button className={selectedYear === 2022 ? 'selected' : ''}onClick={() => handleYearChange(2022)}>2022/2023</button>
+        <button className={selectedYear === 2021 ? 'selected' : ''} onClick={() => handleYearChange(2021)}>2021/2022</button>
         </div>
       <div className='cards__container' data-aos="zoom-in-left" data-aos-duration="3200">
         {/* <ul className='cards__items'>

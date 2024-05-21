@@ -58,3 +58,7 @@
 .yr_btn_style button:hover {
   background-color: #fffaf8;
 }
+
+.yr_btn_style button.selected {
+  background-color: #fffaf8;
+}
