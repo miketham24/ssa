@@ -6,7 +6,7 @@ const teamData = {
   2024: [
     // Data for 2024/2025 team
     { src: 'images/team_photos/2022team/vic.JPG', text: 'Victoria Cheah', role: 'Co-President', path: '/' },
-    { src: 'images/team_photos/2024team/matts2.jpg', text: 'Matthew Soh', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2024team/matts.png', text: 'Matthew Soh', role: 'Co-President', path: '/' },
     { src: 'images/team_photos/2023team/ym.png', text: 'Foo Yong Ming', role: 'Treasurer', path: '/' },
     { src: 'images/team_photos/2024team/alyssa.jpeg', text: 'Alyssa Tang', role: 'Secetary', path: '/' },
     { src: 'images/team_photos/2023team/py.JPG', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
