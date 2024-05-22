@@ -20,7 +20,7 @@ function Home() {
         link="" // add rspv link here
         imageSource='images/event_photos/welcomebkbbq.jpeg'
         buttonText="Register :D"
-        daysToLive={null}
+        daysToLive={1}
         secondsBeforeBannerShows={3}
         closeIconSize={30}
         animateInDuration={2000}

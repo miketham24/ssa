@@ -5,7 +5,7 @@ import Carousel from 'react-elastic-carousel';
 
 const breakPoints =[
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2, itemsToScroll:2},
+  { width: 350, itemsToShow: 2, itemsToScroll:2},
   { width: 768, itemsToShow: 3, itemsToScroll:3},
   { width: 1200, itemsToShow: 3, itemsToScroll:3},
   { width: 1450, itemsToShow: 5, itemsToScroll:5},

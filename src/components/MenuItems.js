@@ -1,24 +1,24 @@
 export const MenuItems = [ 
     {
         title: '2022',
-        path: '/marketing',
+        path: '/',
         cName: 'dropdown-link'
     },
     {
         title: '2021',
-        path: '/consulting',
+        path: '/',
         cName: 'dropdown-link',
         subNav: [
             {
                 subtitle: 'Ice Breaker 2021',
-                path: '/consulting',
+                path: '/',
                 cName: 'dropdown-link'
             }
         ]
     },
     {
         title: '2020',
-        path: '/design',
+        path: '/',
         cName: 'dropdown-link'
     }
 ]
