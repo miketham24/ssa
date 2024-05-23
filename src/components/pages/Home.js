@@ -9,6 +9,7 @@ import Partner from '../Partner';
 import Footer from '../Footer';
 import Ourstats from '../Ourstats';
 import Announcement from "react-popup-announcement";
+import { Analytics } from "@vercel/analytics/react"
 
 
 function Home() {
@@ -30,6 +31,7 @@ function Home() {
         }
       }
       />
+      <Analytics />
       <HeroSection />
       <About />
       <Whyus />
