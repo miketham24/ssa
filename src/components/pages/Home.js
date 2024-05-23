@@ -31,8 +31,8 @@ function Home() {
         }
       }
       />
-      <Analytics />
       <HeroSection />
+      <Analytics />
       <About />
       <Whyus />
       <Ourstats />
