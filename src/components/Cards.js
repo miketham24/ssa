@@ -16,7 +16,7 @@ function Cards() {
   return (
     <>
     <div className='cards' id="events" >
-      <h1 className='cards-h1' data-aos="fade-up">Events!</h1>
+      <h1 className='cards-h1' data-aos="fade-up">Events</h1>
       <h3 className='cards-h3' data-aos="fade-up" data-aos-duration="2800">Join us to experience Singaporean culture through celebrating national festivals, activities, and socials!</h3>
       <div className='cards__container' data-aos="fade-up" data-aos-duration="3200">
         <Carousel breakPoints={breakPoints}>

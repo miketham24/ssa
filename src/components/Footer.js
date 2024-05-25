@@ -98,7 +98,7 @@ function Footer() {
         <div className='footer-subscription2'>
           <p className='footer-subscription-heading'>
           Have a question? Send us a message!  <br/>
-          or send us an email at 
+          Or send us an email at 
           <br/> singapore.ubc@gmail.com</p>
           <div className='input-areas'>
             <form ref={form} >
