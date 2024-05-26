@@ -105,7 +105,7 @@ function Team() {
   return (
     <div className='team-section' id="team">
       <h1 className='team-h1'>
-        Our Executive Teams!</h1>
+        Our Executive Teams</h1>
         <div className='yr_btn_style'>
         <button className={selectedYear === 2024 ? 'selected' : ''}onClick={() => handleYearChange(2024)}>2024/2025</button>
         <button className={selectedYear === 2023 ? 'selected' : ''}onClick={() => handleYearChange(2023)}>2023/2024</button>
