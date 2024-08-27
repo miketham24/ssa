@@ -16,10 +16,10 @@ function Home() {
   return (
     <>
     <Announcement
-        title="NEXT EVENT: Destination UBC"
+        title="NEXT EVENT: Destination UBC (6th September 7-9pm)"
         subtitle="All the info you need to have a great time at UBC!"
         link="https://forms.gle/vLtorurP4UfMZUsC9" // add rspv link here
-        imageSource='images/event_photos/welcomebkbbq.jpeg'
+        imageSource='images/event_photos/welcomebkbbq.jpeg' // change photo
         buttonText="Register :D"
         daysToLive={1}
         secondsBeforeBannerShows={3}
