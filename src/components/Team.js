@@ -12,7 +12,7 @@ const teamData = {
     { src: 'images/team_photos/2023team/py.JPG', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2023team/zara.JPG', text: 'Zara Hassan', role: 'Marketing Director', path: '/' },
     { src: 'images/team_photos/2024team/nich.JPG', text: 'Nicholas Low', role: 'Logistics Director', path: '/' },
-    { src: 'images/team_photos/2024team/tim.JPG', text: 'Nicholas Low', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2024team/tim.JPG', text: 'Tim Ng', role: 'Logistics Director', path: '/' },
     { src: 'images/team_photos/2024team/jamey.JPG', text: 'Jamey Laoroekutai', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2024team/bruno.JPG', text: 'Bruno Brett', role: 'External Director', path: '/' },
     { src: 'images/team_photos/2024team/daphne.JPG', text: 'Daphne Sng', role: 'Events Director', path: '/' },

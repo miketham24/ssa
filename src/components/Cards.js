@@ -146,9 +146,9 @@ function Cards() {
         <h1 className='upcoming-h1' data-aos="fade-up">Our <span className='up'>Upcoming</span> Event:</h1>
             <CardItem
               src='images/event_photos/welcomebkbbq.jpeg'
-              text='Welcome Back BBQ'
+              text='Destination UBC'
               label='2024'
-              path=''
+              path='https://forms.gle/vLtorurP4UfMZUsC9'
               className='upcoming-event'
             />
       </div>
