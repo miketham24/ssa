@@ -145,10 +145,10 @@ function Cards() {
       <div className='upcoming__container' data-aos="flip-left" data-aos-duration="2800">
         <h1 className='upcoming-h1' data-aos="fade-up">Our <span className='up'>Upcoming</span> Event:</h1>
             <CardItem
-              src='images/event_photos/welcomebkbbq.jpeg'
-              text='Welcome Back BBQ'
+              src='images/event_photos/welcomebkbbq.jpeg' // change photo
+              text='Destination UBC'
               label='2024'
-              path=''
+              path='https://forms.gle/vLtorurP4UfMZUsC9' // add rspv link here
               className='upcoming-event'
             />
       </div>
