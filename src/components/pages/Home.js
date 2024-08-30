@@ -27,7 +27,7 @@ function Home() {
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('');
+          window.open('https://forms.gle/vLtorurP4UfMZUsC9');
         }
       }
       />
