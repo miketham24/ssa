@@ -16,10 +16,10 @@ function Home() {
   return (
     <>
     <Announcement
-        title="NEXT EVENT: Destination UBC (6th September 7-9pm)"
-        subtitle="All the info you need to have a great time at UBC!"
-        link="https://forms.gle/vLtorurP4UfMZUsC9" // add rspv link here
-        imageSource='images/event_photos/welcomebkbbq.jpeg' // change photo
+        title="NEXT EVENT: Icebreaker (27th September 6-9pm)"
+        subtitle="Engage in games, win prizes, and indulge in good food!"
+        link="" // add rspv link here
+        imageSource='images/event_photos/iceb23.png' // change photo
         buttonText="Register :D"
         daysToLive={1}
         secondsBeforeBannerShows={3}
@@ -27,7 +27,7 @@ function Home() {
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('https://forms.gle/vLtorurP4UfMZUsC9');
+          window.open('https://form.jotform.com/242398144037054');
         }
       }
       />
