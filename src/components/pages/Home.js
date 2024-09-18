@@ -18,7 +18,7 @@ function Home() {
     <Announcement
         title="NEXT EVENT: Icebreaker (27th September 6-9pm)"
         subtitle="Engage in games, win prizes, and indulge in good food!"
-        link="" // add rspv link here
+        link="" 
         imageSource='images/event_photos/iceb23.png' // change photo
         buttonText="Register :D"
         daysToLive={1}
@@ -27,7 +27,7 @@ function Home() {
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('https://form.jotform.com/242398144037054');
+          window.open('https://form.jotform.com/242398144037054'); // add rsvp link here
         }
       }
       />
