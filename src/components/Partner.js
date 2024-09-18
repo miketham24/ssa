@@ -33,7 +33,7 @@ function Partner() {
           <img src='images/partners/yeo.png' alt='yeo' className='sgn' />
           <img src='images/partners/pb.png' alt='pb' className='mc' />
           <img src='images/partners/rr.png' alt='rr' className='sgn' />
-          <img src='images/partners/bl.jpeg' alt='bl' className='mc' />
+          <img src='images/partners/bl.png' alt='bl' className='mc' />
           <img src='images/partners/nysm.png' alt='nysm' className='mc' />
           <img src='images/partners/aseac.jpeg' alt='aseac' className='mc' />
         </Marquee>
