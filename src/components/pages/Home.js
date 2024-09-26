@@ -27,7 +27,7 @@ function Home() {
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('https://form.jotform.com/242398144037054'); // add rsvp link here
+          window.open('https://www.cognitoforms.com/singaporestudentsassociation/ubcssaicebreakerrsvp'); // add rsvp link here
         }
       }
       />
