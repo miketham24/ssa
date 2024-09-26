@@ -148,7 +148,7 @@ function Cards() {
               src='images/event_photos/iceb23.png' // change photo
               text='Icebreaker'
               label='2024'
-              path='https://form.jotform.com/242398144037054' // add rspv link here
+              path='https://www.cognitoforms.com/singaporestudentsassociation/ubcssaicebreakerrsvp' // add rspv link here
               className='upcoming-event'
             />
       </div>
