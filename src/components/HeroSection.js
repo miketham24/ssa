@@ -34,7 +34,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={(e) => {
             e.preventDefault();
-            window.open('https://forms.gle/LejsKADbA5BtM9z99');
+            window.open('https://www.cognitoforms.com/SingaporeStudentsAssociation/SSA202425Membership');
             }}
         >
           JOIN US LAH!
