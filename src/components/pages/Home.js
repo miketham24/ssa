@@ -16,8 +16,8 @@ function Home() {
   return (
     <>
     <Announcement
-        title="NEXT EVENT: Icebreaker (27th September 6-9pm)"
-        subtitle="Engage in games, win prizes, and indulge in good food!"
+        title="NEXT EVENT: Sleigh with SSA (Nov 29th 7-9:30pm)"
+        subtitle="Join us in making gingerbread houses, taking festive pictures at the Photo Booth, and watching christmas movies with Hot milo and marshmallows!!"
         link="" 
         imageSource='images/event_photos/iceb23.png' // change photo
         buttonText="Register :D"
@@ -27,7 +27,7 @@ function Home() {
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('https://www.cognitoforms.com/singaporestudentsassociation/ubcssaicebreakerrsvp'); // add rsvp link here
+          window.open('https://www.jotform.com/243187399700262'); // add rsvp link here
         }
       }
       />
