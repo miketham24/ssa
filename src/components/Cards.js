@@ -146,9 +146,9 @@ function Cards() {
         <h1 className='upcoming-h1' data-aos="fade-up">Our <span className='up'>Upcoming</span> Event:</h1>
             <CardItem
               src='images/event_photos/iceb23.png' // change photo
-              text='Icebreaker'
+              text='Sleigh with SSA'
               label='2024'
-              path='https://www.cognitoforms.com/singaporestudentsassociation/ubcssaicebreakerrsvp' // add rspv link here
+              path='https://www.jotform.com/243187399700262' // add rspv link here
               className='upcoming-event'
             />
       </div>
