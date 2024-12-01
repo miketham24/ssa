@@ -22,6 +22,12 @@
 .companies {
     justify-content: center;
     align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    padding-bottom: -10rem;
+    margin: 0;
+    padding: 0;
 }
 
 .sgn {
@@ -46,6 +52,19 @@
 
 .mc {
     height: 11rem;
+    padding: 3rem;
+}
+
+.ros {
+    height: 3rem;
+}
+
+.chatime{
+    height: 5rem;
+}
+
+.dump{
+    height: 5rem;
     padding: 3rem;
 }
 
