@@ -25,7 +25,8 @@ function Partner() {
           <img src='images/partners/bl.png' alt='Banana Leaf' className='mc' />
           <img src='images/partners/teadot.png' alt='TeaDot' className='sgn' />
           <img src='images/partners/dump.png' alt='Dumpliness' className='mc'/>
-          <img src='images/partners/honey.png' alt='HoneyDew Labs' className='sgn2'/>
+          <img src='images/partners/honey.png' alt='HoneyDew Labs' className='sgn2'
+          onClick={() => window.open('https://honeydewlabs.com', '_blank', 'noopener,noreferrer')}/>
           <img src='images/partners/storage-hotel.png' alt='Storage Hotel' className='mc' />
           <img src='images/partners/rainorshine.jpg' alt='Rain or Shine' className='ros' />
         </Marquee>
