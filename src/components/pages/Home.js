@@ -16,18 +16,18 @@ function Home() {
   return (
     <>
     <Announcement
-        title="NEXT EVENT: Sleigh with SSA (Nov 29th 7-9:30pm)"
-        subtitle="Join us in making gingerbread houses, taking festive pictures at the Photo Booth, and watching christmas movies with Hot milo and marshmallows!!"
+        title="NEXT EVENT: CNY (Jan 30th 7-10pm)"
+        subtitle="Join us to celebrate the Lunar New Year!"
         link="" 
-        imageSource='images/event_photos/iceb23.png' // change photo
-        buttonText="Register :D"
+        imageSource='images/event_photos/cny23.png' // change photo
+        buttonText="Waitlist :D"
         daysToLive={1}
         secondsBeforeBannerShows={3}
         closeIconSize={30}
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('https://www.jotform.com/243187399700262'); // add rsvp link here
+          window.open('https://form.jotform.com/250286445906260'); // add rsvp link here
         }
       }
       />
