@@ -16,18 +16,18 @@ function Home() {
   return (
     <>
     <Announcement
-        title="NEXT EVENT: CNY (Jan 30th 7-10pm)"
-        subtitle="Join us to celebrate the Lunar New Year!"
+        title="NEXT EVENT: Malaysia Singapore Night (Mar 19th 6:30-9:30pm)"
+        subtitle="Join us to celebrate Singaporean and Malaysian culture!"
         link="" 
-        imageSource='images/event_photos/cny23.png' // change photo
-        buttonText="Waitlist :D"
+        imageSource='images/event_photos/msn23.png' // change photo
+        buttonText="RSVP!"
         daysToLive={1}
         secondsBeforeBannerShows={3}
         closeIconSize={30}
         animateInDuration={2000}
         animateOutDuration={500}
         onBannerClick={() => {
-          window.open('https://form.jotform.com/250286445906260'); // add rsvp link here
+          window.open('https://docs.google.com/forms/d/e/1FAIpQLSfoeILK-e_6PFtA_1T1hafrjSiF6I6CRXmGXFRmt6JDGRRTpQ/viewform'); // add rsvp link here
         }
       }
       />
