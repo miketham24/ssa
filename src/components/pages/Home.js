@@ -15,6 +15,7 @@ import { Analytics } from "@vercel/analytics/react"
 function Home() {
   return (
     <>
+    {/*}
     <Announcement
         title="NEXT EVENT: Malaysia Singapore Night (Mar 19th 6:30-9:30pm)"
         subtitle="Join us to celebrate Singaporean and Malaysian culture!"
@@ -31,6 +32,7 @@ function Home() {
         }
       }
       />
+      */}
       <HeroSection />
       <Analytics />
       <About />
