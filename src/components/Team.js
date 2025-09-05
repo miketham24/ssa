@@ -3,6 +3,24 @@ import './Team.css';
 import TeamItem from './TeamItem';
 
 const teamData = {
+  2025: [
+    // Data for 2025/2026 team
+    { src: 'images/team_photos/2024team/alyssa.jpeg', text: 'Alyssa Tang', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2025team/jm2025.jpg', text: 'Jamey Lao', role: 'Co-President', path: '/' },
+    { src: 'images/team_photos/2025team/steffen.jpg', text: 'Steffen Tan', role: 'Treasurer', path: '/' },
+    { src: 'images/team_photos/2025team/vic25.jpg', text: 'Victoria Cheah', role: 'Secetary', path: '/' },
+    { src: 'images/team_photos/2025team/pys.jpg', text: 'Pinn Yee Scott', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2025team/christie.jpeg', text: 'Christie Wu', role: 'Marketing Director', path: '/' },
+    { src: 'images/team_photos/2025team/kwok.JPG', text: 'Christian Kwok', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2025team/kay.jpeg', text: 'Kayeon Lee', role: 'Logistics Director', path: '/' },
+    { src: 'images/team_photos/2025team/ym2025.jpg', text: 'Foo Yong Ming', role: 'Logistics Coordinator', path: '/' },
+    { src: 'images/team_photos/2025team/tim25.jpeg', text: 'Tim Ng', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2025team/vince.jpg', text: 'Vincent Tan', role: 'External Director', path: '/' },
+    { src: 'images/team_photos/2025team/brenden.jpg', text: 'Brenden Ross', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2025team/emma2025.jpg', text: 'Emma Lim', role: 'Events Director', path: '/' },
+    { src: 'images/team_photos/2025team/elaine.JPG', text: 'Elaine Notokusumo', role: 'Digital Coordinator', path: '/' },
+    { src: 'images/team_photos/2025team/nik25.jpg', text: 'Nikhail Thakker', role: 'Internal Development Director', path: '/' },
+    ],
   2024: [
     // Data for 2024/2025 team
     { src: 'images/team_photos/2022team/vic.JPG', text: 'Victoria Cheah', role: 'Co-President', path: '/' },
@@ -84,8 +102,8 @@ const teamData = {
 
 function Team() {
 
-  const [year, setYear] = useState(2024);
-  const [selectedYear, setSelectedYear] = useState(2024);
+  const [year, setYear] = useState(2025);
+  const [selectedYear, setSelectedYear] = useState(2025);
 
   const handleYearChange = (selectedYear) => {
     setYear(selectedYear);
@@ -110,6 +128,7 @@ function Team() {
       <h1 className='team-h1'>
         Our Executive Teams</h1>
         <div className='yr_btn_style'>
+        <button className={selectedYear === 2025 ? 'selected' : ''} onClick={() => handleYearChange(2025)}>2025/2026</button>
         <button className={selectedYear === 2024 ? 'selected' : ''}onClick={() => handleYearChange(2024)}>2024/2025</button>
         <button className={selectedYear === 2023 ? 'selected' : ''}onClick={() => handleYearChange(2023)}>2023/2024</button>
         <button className={selectedYear === 2022 ? 'selected' : ''}onClick={() => handleYearChange(2022)}>2022/2023</button>
