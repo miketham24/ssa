@@ -181,10 +181,10 @@ function Cards() {
       <div className='upcoming__container' data-aos="flip-left" data-aos-duration="2800">
         <h1 className='upcoming-h1' data-aos="fade-up">Our <span className='up'>Upcoming</span> Event:</h1>
             <CardItem
-              src='images/event_photos/msn23.png' // change photo
+              src='images/event_photos/dest25.jpg' // change photo
               text='RSVP Now!'
               label='2025'
-              path='https://docs.google.com/forms/d/e/1FAIpQLSfoeILK-e_6PFtA_1T1hafrjSiF6I6CRXmGXFRmt6JDGRRTpQ/viewform' // add rspv link here
+              path='https://form.jotform.com/252431416100238' // add rspv link here
               className='upcoming-event'
             />
       </div>
