@@ -21,6 +21,42 @@ function Cards() {
       <div className='cards__container' data-aos="fade-up" data-aos-duration="3200">
         <Carousel breakPoints={breakPoints}>
             <CardItem
+              src='images/event_photos/msn2025.jpeg'
+              text='Kampung MSN'
+              label='2025'
+              path='https://www.instagram.com/p/DHobHLSRMmt/?img_index=1'
+            />
+            <CardItem
+              src='images/event_photos/cny25.jpeg'
+              text='CNY'
+              label='2025'
+              path='https://www.instagram.com/p/DFoGf-1TTfL/?img_index=1'
+            />
+            <CardItem
+              src='images/event_photos/sleigh24.JPG'
+              text='Sleigh with SSA'
+              label='2024'
+              path='https://www.instagram.com/p/DDGYsNtplAj/?img_index=1'
+            />
+            <CardItem
+              src='images/event_photos/deep24.jpg'
+              text='Deepavali'
+              label='2024'
+              path='https://www.instagram.com/p/DB7AGTzzpCH/?img_index=1'
+            />
+            <CardItem
+              src='images/event_photos/iceb24.JPG'
+              text='Icebreaker 24/25'
+              label='2024'
+              path='https://www.instagram.com/p/DAj4YMjSIpO/?img_index=1'
+            />
+            <CardItem
+              src='images/event_photos/dest25.jpg'
+              text='Destination UBC'
+              label='2024'
+              path='https://www.instagram.com/p/C_tz6e1yUjt/?img_index=1'
+            />
+            <CardItem
               src='images/event_photos/msn2024.jpg'
               text='MSN'
               label='2024'
